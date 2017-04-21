@@ -4,7 +4,6 @@
     "es6": true
   },
   "rules": {
-    "arrowFunctions": true,
     "array-bracket-spacing": [2, "never"],
     "block-scoped-var": 2,
     "brace-style": [2, "1tbs"],
@@ -27,5 +26,8 @@
     "semi": [2, "always"],
     "keyword-spacing": [2, {"before": true, "after": true}],
     "space-unary-ops": 2
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
   }
 }
